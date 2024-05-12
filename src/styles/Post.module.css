@@ -1,0 +1,39 @@
+.post {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.postTitle a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.postContent {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    margin-top: 1rem;
+    color: #666;
+}
+
+.postAuthor {
+    margin-top: 0.5rem;
+    color: #999;
+}
+
+.postDate {
+    margin-top: 0.5rem;
+    color: #999;
+}
+
+.postTags {
+    display: flex;
+    gap:0.5rem;
+    margin-top: 0.5rem;
+    padding: 0;
+    color: #999;
+    list-style: none;
+}
